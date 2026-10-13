@@ -2,8 +2,8 @@ name: Spring Cloud Gateway
 run-name: Spring Cloud Gateway
 
 on:
-  schedule:
-    - cron: '0 2 * * *'
+  # schedule:
+  #   - cron: '0 2 * * *'
   workflow_dispatch:
 
 # 防止多个构建并发跑，避免重复推送相同tag
